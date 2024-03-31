@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    background-color: black;
+    /* Image made with www.svgbackgrounds.com */
+    background-image: url("/media/indexBG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#mainContainer {
+    margin:0;
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+#navibar {
+    z-index: 10000000;
+    filter: drop-shadow(0 0 .2rem #000000c8);
+}
+
+
+
+.footer {
+    z-index: 1000000;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white !important;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+    filter: drop-shadow(0 0 .2rem #000000c8);
+
+    && a {
+        color:white;
+    }
+
+    && a:hover{
+        color: blue;
+    }
+}
+
+
+.bgtransparent{
+    background-color: rgba(31, 29, 29, 0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+}

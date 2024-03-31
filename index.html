@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Rana's Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+
+
+</head>
+
+
+<body>
+    <!--NAV DIV-->
+    <div id="navibar" class="container-fluid sticky-top">
+        <div class="row">
+                <nav class="navbar navbar-expand-md
+                        bg-dark navbar-dark col-12">
+
+                    <!-- LOGO -->
+                    <a class="navbar-brand " href="index.html">
+                        <img src="media/student.png" width="30" height="30" class="d-inline-block align-top" alt="This is the page logo: a student waving.">
+                    </a>
+                    
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutme.html">About Me</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbardrop"
+                                data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Portfolio
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="portfolio.html">Projects</a>
+                                    <a class="dropdown-item" href="portfolio.html">Ideas</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resume.html">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-success rounded-3" href="contact.html">Contact Me</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+        </div>
+    </div>
+       
+
+    <div id="mainContainer">
+
+            <!--Text Card-->
+        <div class="card col-5 text-center text-white bgtransparent rounded-3">
+                <h1>Hey There,👋 <br> I'm <em style="color:teal;">Jay</em>!</h1>
+        </div>
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <!--Right Side Logos-->
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <a href="https://linkedin.com/in/jay-rana-23441a298" target="_blank">
+                    <img class="linkedInLogo logo img-fluid col-sm" src="media/linkedinLogo.webp" alt="The Linkedin logo.">
+                </a>
+            </div>
+            <!--Image+Button Card-->
+            <div class="card bgtransparent" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="media/student.png" alt="A student waving centered on the page. Same as logo.">
+                <br>
+                <a href="aboutme.html" class="btn round-3" style="background-color:rgba(90, 177, 177, 0.718);">
+                    <span class="p" style="color: whitesmoke; font-size: 2em;">Learn More &#11166;</span>
+                </a>
+            </div>
+
+            <!--Left Side Logos-->
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <a href="https://github.com/Jhr-4" target="_blank">
+                    <img class="githubLogo logo img-fluid" src="media/githubLogo.webp" alt="The GitHub logo">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--BOTTOM_FOOTER-->    
+    <footer class="footer page-footer font-small bg-dark">
+        <div class="container">
+            <div class="row">
+                <span>&copy; Jay Rana, 2024 |  <u>Terms Of Use</u>  |  <u>Privacy Statement</u> | <a href="https://www.flaticon.com/free-icon/student_2436683" title="student icons" target="_blank">Student Icons Created by Freepik - Flaticon</a></span>
+            </div>
+        </div>
+    </footer>
+
+
+        <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous">
+    </script>
+</body>
+</html>

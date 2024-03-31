@@ -1,0 +1,29 @@
+#mainContainer{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.logo{
+    height: 4em;
+}
+
+.logo:hover{
+    filter: drop-shadow(0 0 .5rem #4dc5a9c8);
+    cursor: pointer;
+}
+
+.githubLogo {
+    background-color: white;
+    border-radius: 25%;
+    border: 3px double black;
+}
+
+.linkedInLogo{ 
+    background-color: #000000;
+    border-radius: 25%;
+    border: 3px double white;
+}
+
+.card:hover{
+    filter: drop-shadow(0 0 .5rem #4dc5a9c8);
+}

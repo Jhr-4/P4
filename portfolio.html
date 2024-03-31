@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jay Rana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+
+
+</head>
+<body>
+        <!--NAV DIV-->
+    <div class="container-fluid" id="navibar">
+        <div class="row">
+                <nav class="navbar navbar-expand-lg
+                        bg-dark navbar-dark col-12">
+
+                    <!-- LOGO -->
+                    <a class="navbar-brand " href="index.html">
+                        <img src="media/student.png" width="30" height="30" class="d-inline-block align-top" alt="This is the page logo: a student waving.">
+                    </a>
+                    
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutme.html">About Me</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbardrop"
+                                data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Portfolio
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="portfolio.html">Projects</a>
+                                    <a class="dropdown-item" href="portfolio.html">Ideas</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resume.html">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-success rounded-3" href="contact.html">Contact Me</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+        </div>
+    </div>
+                
+    <div id="mainContainer">
+        <h1 class="card text-white bgtransparent">
+            Projects
+        </h1>
+        <hr>
+
+<!--        Will Be Added when more than 1 page. with JS
+            <div id="paginationHolder" class="sticky-top">
+            <ul class="pagination">
+                <p>Page:</p>
+                <li class="page-item">
+                    <a class="page-link">&laquo;</a>
+                </li>
+                <li class="page-item active"><a class="page-link">1</a></li>
+                <li class="page-item"><a class="page-link">2</a></li>
+                <li class="page-item"><a class="page-link">3</a></li>
+                <li class="page-item">
+                    <a class="page-link disabled">&raquo;</a>
+                </li>
+            </ul>
+        </div>
+-->
+
+        <div class="projectContainer">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="media/Projects/GradeCalculatorProject.png" alt="Screenshot of the Grade Calculator website.">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Grade Calculator</h5>
+                    <h6 class="text-muted"><i>JS, HTML, CSS</i></h6>
+                    <p class="card-text text-white">An user-friendly Grade Calculator web application. You can use the tool to track your grades and progress easily for multiple classes. The data gets stored on users local storage.</p>
+                </div>
+                <a href="https://github.com/Jhr-4/GradeCalculator" class="btn btn-dark btn-outline-info btn-outline-info:hover btn-outline-info:focus" target="_blank">🔗 Open Project</a>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="media/Projects/PersonalWebsiteProject.png" alt="Screenshot of the Personal Portfolio website.">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Personal Portfolio Website</h5>
+                    <h6 class="text-muted"><i>HTML, CSS, Bootstaps</i></h6>
+                    <p class="card-text text-white">A responsive portfolio website (the one you're currently on shocking). Built as a college project for IS117. </p>
+                </div>
+                <a href="#" class="btn btn-dark btn-outline-info btn-outline-info:hover btn-outline-info:focus" target="_blank">🔗 Open Project</a>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="media/Projects/Placeholder.jpeg" alt="Empty Placeholder">
+                <div class="card-body">
+                    <h5 class="card-title text-white">🚧 SpaceNews - IT202🚧</h5>
+                    <h6 class="text-muted"><i>PHP, mySQL, JS, HTML, CSS</i></h6>
+                    <p class="card-text text-white">A Project Coming Soon.</p>
+                </div>
+                <a href="#" class="btn disabled btn-dark btn-outline-info btn-outline-info:hover btn-outline-info:focus" target="_blank">🔗 Open Project</a>
+            </div>
+
+            
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="media/Projects/Placeholder.jpeg" alt="Empty Placeholder">
+                <div class="card-body">
+                    <h5 class="card-title text-white">🚧 Coming Soon 🚧</h5>
+                    <h6 class="text-muted"><i>Technologies</i></h6>
+                    <p class="card-text text-white">A Project Coming Soon.</p>
+                </div>
+                <a href="#" class="btn disabled btn-dark btn-outline-info btn-outline-info:hover btn-outline-info:focus" target="_blank">🔗 Open Project</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="footer page-footer font-small bg-dark">
+        <div class="container">
+            <div class="row">
+                <span>&copy; Jay Rana, 2024 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

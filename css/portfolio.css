@@ -1,0 +1,90 @@
+h1{
+    margin-top: 15px;
+}
+
+h1:hover{
+    filter: drop-shadow(0 0 .5rem #4dc5a9c8);
+}
+
+hr {
+    width: 75%;               
+    opacity: 50%;
+    border: 3px solid rgba(0, 255, 255, 0.582);
+    border-radius: 25rem;
+}
+
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 960px;
+}
+
+.projectContainer .card{
+    background-color: rgba(2, 23, 32, 0.695);
+    border-color: #0dcaf0;
+    margin: 1rem;
+}
+
+.projectContainer .card:hover{
+    filter: drop-shadow(0 0 .5rem #4dc5a9c8);   
+}
+
+.card-img-top{
+    border-bottom: solid #0dcaf0;
+    width: 286px;
+    height: 163.5px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card a{
+    border-bottom: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+
+/*Page
+.pagination{
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 1em;
+    margin-left: .5rem;
+}
+
+#paginationHolder{
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 0;
+
+    && p {
+        margin: 0;
+        color: whitesmoke;
+        text-align: center;
+    }
+}
+
+.page-item.active .page-link{
+    background-color: rgb(4, 80, 80) !important;
+}
+
+.page-link{
+    border: 1px solid #0dcaf0 !important;
+    background-color: #212529 !important;
+    color: whitesmoke;
+    border-radius:0  !important;
+    height: calc(50dvh/5);
+}
+
+.page-link:hover{
+    background-color: darkslategray !important;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+*/
