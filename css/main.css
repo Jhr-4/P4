@@ -5,7 +5,7 @@ body {
     min-height: 100dvh;
     background-color: black;
     /* Image made with www.svgbackgrounds.com */
-    background-image: url("/media/indexBG.png");
+    background-image: url("../media/indexBG.png");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
